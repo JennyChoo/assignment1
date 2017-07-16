@@ -1,0 +1,129 @@
+html{
+	font-size:16px;
+}
+
+body {
+	background-color: #555; /*hexadecimal*/
+	margin:2rem; /*32px*/
+	border:10px solid #ccc;
+	color:white;
+
+	max-width: 800px;
+	margin: 2rem auto;
+}
+
+h1{
+	margin:0;
+}
+
+.wrapper{
+	margin:20px;
+}
+
+.title{
+	text-align: center;
+	color:white;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-style: italic;
+
+}
+
+.menu{
+	margin-top:20px; 
+	margin-bottom:20px;
+	text-align: center;
+	/*padding:20px o; 上下20，左右0*/
+}
+
+.menu-item{
+	text-align: center;
+	font-weight: 500;
+	font-family:Helvetica;
+	color:#093;
+	font-size:20px;
+	border-right:1px solid #ccc;
+	padding-right:10px;
+	padding-left:10px;
+}
+
+
+.menu-item-no-border,
+.menu-item:last-child {
+	border-right: none;
+	padding-right: 0;
+}
+
+.menu-item-active{
+	color:white;
+	text-decoration:none;
+	pointer-events:none;
+	/*display:;  */
+	line-height: 16px;
+	
+}
+
+.wrapper-border-bottom{
+	border-bottom:1px solid #ccc;
+}
+
+.wrapper-border-top{
+	border-top:1px solid #ccc;
+}
+
+.title-standard{
+	font-style:normal;
+	font-size:1.5rem;
+	text-align: left;
+}
+
+p{
+	line-height: 2rem;
+	font-size:1.2rem;
+}
+
+.content-img{
+	float:right;
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+
+.resume-category{
+	text-align: left;
+	font-size:18px;
+	font-family: Helvetica;
+	padding:20px 0;
+	color:#ccc9c7;
+}
+
+p.experience-details{
+	font-size:13px;
+	color:grey;
+	font-family:Georgia;
+	font-weight:thin;
+	padding-top:-12px;
+}
+
+.job-title{
+	font-weight: bold;
+	font-size:18px;
+	color:white;
+	padding-top:6px;
+}
+
+.company-name{
+	font-size:15px
+	color:white;
+	font-weight:normal;
+	color:#ccc9c7;
+}
+
+.experience-year{
+	font-size:14px;
+	font-weight:thin;
+	color:grey;
+}
+
+.ul-standard{
+	font-family:'Lato', sans-serif;
+}
